@@ -23,8 +23,8 @@ div.header {
 }
 
 div.container {
-    width: calc(.8 * 100vw);
-    height: calc(.8 * 100vw);
+    width: calc(.8 * 100vh);
+    height: calc(.8 * 100vh);
     padding: 0;
     margin: 0;
     border: 2px solid black;
