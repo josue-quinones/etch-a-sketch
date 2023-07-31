@@ -3,8 +3,9 @@ const button = document.querySelector('button');
 const MAX_SIZE = 100;
 const ORIGINAL_SIZE = 16;
 
-function addHoverEffect(e) {
+function addHoverEffect() {
     this.style.backgroundColor = "black";
+    this.style.opacity = `${this.style.opacity ? (parseFloat(this.style.opacity)) + .1 : 0.1}`
 }
 
 function createGrid(size) {
