@@ -7,8 +7,8 @@ Written in:
 * CSS
 
 Goals:
-- [ ] Have the Etch-A-Sketch grids be etch-able
-- [ ] Have the button generate new grid with new size
+- [x] Have the Etch-A-Sketch grids be etch-able
+- [x] Have the button generate new grid with new size
 
 Plan:
 1. create index,styles,script files
@@ -19,4 +19,5 @@ Plan:
 6. configure button logic to generate new grid
 
 Lessons Learned:
-1. 
+1. MDN Docs are great!
+2. Splitting the plan before beginning saves on time and organizes work better
