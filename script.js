@@ -23,7 +23,7 @@ function createGrid(size) {
 }
 
 button.onclick = () => {
-    let newSize = parseInt(prompt("Change the grid size here: (MAX allowed is 100", 16));
+    let newSize = parseInt(prompt("Change the grid size here: (MAX allowed is 100)", 16));
     let cells = [...container.childNodes];
     for (let i = 0; i < cells.length; i++) {
         container.removeChild(cells[i]);
