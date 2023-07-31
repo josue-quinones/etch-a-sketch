@@ -6,12 +6,11 @@ function createGrid(size) {
         for (let j = 0; j < size; j++) {
             const div = document.createElement('div');
             div.classList.add("grid-square");
-
+            div.style.width = `calc(100% / ${size})`;
+            div.style.height = `calc(100% / ${size})`;
             container.appendChild(div);
         }
     }
 }
 
 createGrid(ORIGINAL_SIZE);
-
-console.log(container);
